@@ -27,14 +27,16 @@
       - [установить виртуальную машину](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview) с Ubuntu в Virtual box.
 1. Выполните шаги для минимальной конфигурации клиента Git.
 1. Создайте нового пользователя [GitHub](https://github.com) или используйте уже имеющийся у вас аккаунт.
-   
-   При регистрации GitHub, требует указать уникальный email. Если вы хотите зарегистрировать несколько учетных записей Github на один email (например завести отдельный аккаунт для выполнения заданий этого курса), вы можете использовать следующие особенности **некоторых** популярных email серверов/сервисов, в частности Gmail:
-     - Суффиксы после `+` в адресах игнорируются при доставке писем, таким образом все следующие адреса будут доствлены на `user@gmail.com`:
-       - user+1@gmail.com
-       - user+suffix@gmail.com
-       - user+some+longer+suffix@gmail.com
-       - user+some-longer-suffix-with-dashes@gmail.com
-     - Символ `.` не учитывается при формировании адреса назначения. Т.е. `first.last@gmail.com` будет интерпретировано как `firstlast@gmail.com`.
+    
+    > **На заметку**
+    >
+    > При регистрации GitHub, требует указать уникальный email. Если вы хотите зарегистрировать несколько учетных записей Github на один email (например завести отдельный аккаунт для выполнения заданий этого курса), вы можете использовать следующие особенности **некоторых** популярных email серверов/сервисов, в частности Gmail:
+    > - Суффиксы после `+` в адресах игнорируются при доставке писем, таким образом все следующие адреса будут доствлены на `user@gmail.com`:
+    >   - user+1@gmail.com
+    >   - user+suffix@gmail.com
+    >   - user+some+longer+suffix@gmail.com
+    >   - user+some-longer-suffix-with-dashes@gmail.com
+    > - Символ `.` не учитывается при формировании адреса назначения. Т.е. `first.last@gmail.com` будет интерпретировано как `firstlast@gmail.com`.
 1. Создайте новый private репозиторий .
 1. Добавьте пользователя [@digital-academy-devops](https://github.com/digital-academy-devops) в список соавторов - `Settings / Collaborators / Add People`.
 

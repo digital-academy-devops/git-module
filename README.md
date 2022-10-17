@@ -63,6 +63,10 @@
   Если IDE поддерживает работу с Git, можете использовать её, но помните, что история изменений основной ветки должна сохраняться в чистоте (что не означает что вы должны реже сохранять изменения в локальном репозитории, а вовсе скорее наоброт!). 
   Перед объединением, используйте механизмы группировки коммитов в feature ветках.
 - Документируйте код при помощи комментариев
-- Документируйте репозиторий в целом при помощи [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). В качестве примера, используйте исходники этого файла.
+- Документируйте репозиторий в целом при помощи [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). В качестве примера, используйте [исходники данного файла](https://github.com/digital-academy-devops/git-module/blob/main/README.md?plain=1).
 - Для реализации автоматизации, используйте [yq](https://mikefarah.gitbook.io/yq/) или [jq](https://stedolan.github.io/jq/) для работы с данными и [make](https://www.gnu.org/software/make/) для автоматизации повторяющихся действий
 - Для автоматической валидации используйте [pre-commit framework](https://pre-commit.com)
+
+
+### Помощь
+Для получения комментариев к вашему коду, создавайте `Pull request`/`Pull request Draft` для ваших изменений и добавляйте @digital-academy-devops в ревьюверы.

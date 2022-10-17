@@ -69,7 +69,7 @@
   Перед объединением, используйте механизмы группировки коммитов в feature ветках.
 - Документируйте код при помощи комментариев.
 - Документируйте репозиторий в целом при помощи [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). В качестве примера, используйте [исходники данного файла](https://github.com/digital-academy-devops/git-module/blob/main/README.md?plain=1).
-- Для реализации автоматизации, используйте [yq](https://mikefarah.gitbook.io/yq/) или [jq](https://stedolan.github.io/jq/) для работы с данными и [Bash-скрипты], [Taskfile](https://taskfile.dev) или [make](https://www.gnu.org/software/make/) для автоматизации повторяющихся действий.
+- Для реализации автоматизации, используйте [yq](https://mikefarah.gitbook.io/yq/) или [jq](https://stedolan.github.io/jq/) для работы с данными и [Bash-скрипты](https://www.redhat.com/sysadmin/learn-bash-scripting), [Taskfile](https://taskfile.dev) или [make](https://www.gnu.org/software/make/) ((tutorial)[https://www.opensourceforu.com/2012/06/gnu-make-in-detail-for-beginners/]) для автоматизации повторяющихся действий.
 - Для автоматической валидации используйте [pre-commit framework](https://pre-commit.com).
 - Если вы хотите в дальнейшем иметь возможноть сгенерировать на основе YAML документ резюме, например в PDF или HTML, изучите готовые open-source для решения этой задачи. 
   
